@@ -1,0 +1,40 @@
+/* Estilos base para móviles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header, main, footer {
+    padding: 15px;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+}
+
+main {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Media query para pantallas más grandes (tabletas y escritorios) */
+@media (min-width: 768px) {
+    main {
+        padding: 40px;
+        text-align: left;
+    }
+
+    header, footer {
+        text-align: left;
+        padding: 20px 40px;
+    }
+}
